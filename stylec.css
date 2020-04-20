@@ -4,16 +4,18 @@
     width: 100%;
     height: 100px;
     border-bottom: 8px solid rgb(0, 174, 255);
-    position:fixed;
+    position: relative;
     top:0;
 }
+
+
 #b{
     display: inline-block; 
     color:white; 
     font-size: 40px;
     margin-top: 20px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 3px 3px black;
 }
 button{
@@ -21,7 +23,7 @@ button{
          height: 50px;
          width: 150px;
          font-size: 30px;
-         font-family:'calibri light', Tahoma, Geneva, Verdana, sans-serif;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
          font-weight: bold;   
          margin-left: 8%;
          display: inline-block;
@@ -36,7 +38,7 @@ button{
 }
 #c{
     display: inline-block;
-    margin-left: 43%;
+    margin-left: 35%;
 }
 
 a{
@@ -44,7 +46,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 19px;
     
 }
 a:hover{
@@ -68,7 +70,7 @@ a:hover{
  .modal {
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     justify-content: center;
@@ -81,17 +83,16 @@ a:hover{
 .modal-content {
     width: 488px;
     height: 400px;
-    background-color:rgb(226, 182, 182);
+    background-color:rgb(231, 197, 169);
     border-radius: 8px;
     text-align: center;
     padding: 18px;
     position: relative;
-    font-variant: small-caps;
 } 
 
 #loginbutton{
     display: inline-block;
-    background-color: rgb(201, 37, 64);
+    background-color: rgb(66, 62, 40);
     color: white;
     margin-top: 8%;
     margin-left:4%;
@@ -99,13 +100,14 @@ a:hover{
     width: 90px;
     border-radius: 8px;
     font-size: 20px;     
-    font-variant: small-caps;
 }
 #loginbutton:hover{
-   background-color: rgb(40, 66, 66);
+   background-color: rgb(223, 98, 25);
    color: white;
    transition: 0.4s;
 }
+
+
 #flogin {
     width: 400px;
     height: 800px;
@@ -130,20 +132,58 @@ a:hover{
     font-size: 45px;
     font-weight: bold;
     transform: rotate(45deg);
-    color: rgb(230, 30, 63);
+    color: rgb(223, 98, 25);
     border-color: black;
     cursor: pointer;
 } 
 #e{
     text-align: center;
     position: relative;
-    font-family: calibri light;
-    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(49, 0, 0);
     font-size: 20px;  
     font-weight: bold;
     text-align:center;
     display: inline;
     top: 30px;
-    padding-left: 10px;
+    padding-left: 0px;
     right:90px;
+}
+
+caption{
+    font-size: 25px;
+}
+
+table{
+    width: 1000px;
+   /* border-spacing: 1px;*/
+}
+
+th{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+tr{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 18px;
+}
+
+table, th, td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #f8eac3e5;
+}
+
+tr:nth-child(odd){
+    background-color: #fcdb81e5;
 }
